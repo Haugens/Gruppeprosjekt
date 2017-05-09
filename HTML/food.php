@@ -1,9 +1,15 @@
 
 <?php 
 
+
+
+
 $port = 8889;
+
 $username = 'root';
+
 $password = 'root';
+
 $name = 'dagens meny';
 
 $connection = new PDO("mysql:host=localhost;dbname={$name};port={$port}", $username, $password);
@@ -14,14 +20,13 @@ $statement->execute();
 $menues = [];
 
 while($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-    $menues[] = $row;
-    
+    $menues = $row;
 }
 
-
+$mandag = [];
+$mandag = $menues [1];
 
 ?>
-
 
 
 
@@ -34,7 +39,7 @@ while($row = $statement->fetch(PDO::FETCH_ASSOC)) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="stylesheet" href="../CSS/main.css" type="text/css">
+        <link rel="stylesheet" href="main.css" type="text/css">
 
         <title>Vulkan</title>
 
@@ -69,18 +74,20 @@ while($row = $statement->fetch(PDO::FETCH_ASSOC)) {
                 <img id="vulkan-bilde" src="../Prototype/djbilde.jpg">  
             </div>
             
+            
+            
             <div id="right_container">
                 <div id="foodmapbox">
                     <div id="featurebox">
-                        <h2 id="test" <?= $menues['Matrett'] ?></h2>
-                        <h3 <?= $menues['pris'] ?></h3>
                     </div>
                     
                     <div id="infobox">
-                        
+                        <h2 <?php $menues ['matrett'] ?></h2>
+                        <h3 <?= $mandag['pris'] ?></h3>
                     </div>
                 </div>
             </div>
+          
             
             <div id="left_container">
                 
