@@ -4,7 +4,6 @@ html, body
     margin: 0;
     background-color: rgb(255, 255, 255);
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
 
@@ -119,12 +118,13 @@ html, body
 .food:hover, .free_activities:hover, .nightlife:hover, .calendar:hover
 {
     transition: all 0.5s;
-    color: rgb(6, 21, 120);
+    color: red;
     font-size: 1.2em;
 }
 
 #slidy
 {
+    overflow: inherit;
     z-index: 2;
 }
 
@@ -135,6 +135,9 @@ html, body
     height: 70%;
     position: absolute;
     margin-top: -10px;
+    max-width: 100%;
+    overflow-x: hidden;
+
 }
 
 
@@ -195,6 +198,7 @@ html, body
     opacity: 1;
     border-style: solid;
     border-color: black;
+    border-radius: 10%;
 }
 
 #frontpagetext
@@ -285,6 +289,18 @@ html, body
 #freeabouttext
 {
     margin-top: 10%;
+}
+
+
+#hoverbox
+{
+    position: fixed;
+    width: 50px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 30%;
+    right: 0;
+    bottom: 3%;
 }
 
 
