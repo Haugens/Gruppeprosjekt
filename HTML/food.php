@@ -1,10 +1,11 @@
-
 <?php 
 
 $port = 8889;
 $username = 'root';
 $password = 'root';
 $name = 'dagens meny';
+$today = date('w');
+
 
 $connection = new PDO("mysql:host=localhost;dbname={$name};port={$port}", $username, $password);
 
@@ -19,8 +20,14 @@ while($row = $statement->fetch(PDO::FETCH_ASSOC)) {
 }
 
 
-$mandag = [];
-$dag = $menues [0];
+
+
+
+    
+$dag = $menues [$today];
+
+    
+   
 
 
 
@@ -87,7 +94,7 @@ $dag = $menues [0];
                     <div id="infobox">
                         <h2> Ingredients</h2>
                         <h3 class="mdl-card__title-text"><?= $dag['ingredienser'] ?></h3>
-                        <h3 class="mdl-card__title-text"> <?= $dag['pris'] ?>kr </h3>
+                        <h3 class="mdl-card__title-text"> <?= $dag['pris'] ?>kr</h3>
                     </div>
                 </div>
             </div>
