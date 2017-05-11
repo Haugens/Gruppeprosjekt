@@ -1,15 +1,9 @@
 
 <?php 
 
-
-
-
 $port = 8889;
-
 $username = 'root';
-
 $password = 'root';
-
 $name = 'dagens meny';
 
 $connection = new PDO("mysql:host=localhost;dbname={$name};port={$port}", $username, $password);
@@ -20,11 +14,15 @@ $statement->execute();
 $menues = [];
 
 while($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-    $menues = $row;
+    $menues[] = $row;
+    
 }
 
+
 $mandag = [];
-$mandag = $menues [1];
+$dag = $menues [0];
+
+
 
 ?>
 
@@ -79,11 +77,17 @@ $mandag = $menues [1];
             <div id="right_container">
                 <div id="foodmapbox">
                     <div id="featurebox">
+                        <h2> Dagens meny: </h2>
+                        <h2 class="mdl-card__title-text"><?= $dag['matrett'] ?></h2>
+                        
+                        <h3 class="mdl-card__title-text"><?= $dag['beskrivelse'] ?></h3>
+                        
                     </div>
                     
                     <div id="infobox">
-                        <h2 <?php $menues ['matrett'] ?></h2>
-                        <h3 <?= $mandag['pris'] ?></h3>
+                        <h2> Ingredients</h2>
+                        <h3 class="mdl-card__title-text"><?= $dag['ingredienser'] ?></h3>
+                        <h3 class="mdl-card__title-text"> <?= $dag['pris'] ?>kr </h3>
                     </div>
                 </div>
             </div>
