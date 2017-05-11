@@ -102,5 +102,11 @@
           map: map,
           icon: image
         });
+            var image = 'https://cdn3.iconfinder.com/data/icons/common-sports/4096/basketball-512.png';
+        var training = new google.maps.Marker({
+          position: {lat: 59.91788169, lng: 10.7706356},
+          map: map,
+          icon: image
+        });
       }
     
