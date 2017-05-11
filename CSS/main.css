@@ -151,11 +151,11 @@ html, body
     z-index: 3;
 }
 
-#foodmapbox
+#map
 {
     position: relative;
     height: 100%;
-    width: 100%;
+    width: 800px;
     border-style: solid;
     
 }
