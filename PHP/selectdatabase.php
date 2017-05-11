@@ -18,8 +18,18 @@ $sql = "SELECT * FROM aktivitet WHERE date LIKE \"$today\"";
 echo nl2br ("This is the date: $today\n");
 echo nl2br ("This is the text: $sql\n");
 */
+
+$activities = array();
+
+//$result = $conn->query($sql);
+
 $result = $conn->query($sql);
 
+while($row = mysql_fetch_assoc($result)){
+    $activities[] = $row;
+}
+print_r($activities);
+/*
 if ($result->num_rows > 0) {
      echo "<table><tr><th>aktivitet</th><th>date</th><th>location</th><th>beskrivelse</th></tr>";
      // output data of each row
@@ -30,6 +40,7 @@ if ($result->num_rows > 0) {
 } else {
      echo "0 results";
 }
+*/
 
 $conn->close();
 ?>  

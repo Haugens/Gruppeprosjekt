@@ -9,7 +9,7 @@
 <body>
     <h1>A FOOK OOF!</h1>
     <h2>WAT</h2>
-    <iframe src="../PHP/testtest.php"></script>
+    <iframe src="../PHP/testtest.php"></iframe>
     <h3>FUCK</h3>
 </body>
 
