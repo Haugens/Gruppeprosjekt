@@ -4,6 +4,7 @@ $servername = "localhost";
 $username = "dbuser";
 $password = "password";
 $dbname = "aktiviteter";
+$today=date('Y-m-d');
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -11,8 +12,12 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
      die("Connection failed: " . $conn->connect_error);
 } 
-
-$sql = "SELECT activity, date, location, description FROM aktivitet";
+//$sql = "SELECT activity, date, location, description FROM aktivitet";
+$sql = "SELECT * FROM aktivitet WHERE date LIKE \"$today\"";
+/*
+echo nl2br ("This is the date: $today\n");
+echo nl2br ("This is the text: $sql\n");
+*/
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

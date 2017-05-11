@@ -14,6 +14,6 @@ else
 echo 'Connected Successfully!!';
 */
 
-mysqli_query($connect,"insert into aktivitet (activity,date,location,description) values('Spytting','2017-05-13','Klubbhus Øst','Her slipper du bare inn hvis du er skallet og full, drikk og ta en omgang med felleshølet Kristine')");
+mysqli_query($connect,"insert into aktivitet (activity,date,location,description) values('Hermetikkboksing','2017-05-11','Telthusbakken','Bank bank. Hvem der? Hermetikkboksing. Hermetikkboksing hvem? RAAAAAAAAAAAAARGH!!!!')");
 
 echo "<h1>this is the ting</h1>";
