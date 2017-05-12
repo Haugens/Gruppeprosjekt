@@ -29,14 +29,14 @@ html, body
 
 #logo
 {
-    background-image: url("../Prototype/testlogo_yellow.jpg");
-    width: 13.5%;
+    /*background-image: url("../Prototype/testlogo_yellow.jpg");*/
+    width: 10%;
     height: 100%;
-    margin-top: 0;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: auto;
     margin-top: 0%;
+    margin-left: 45%;
+    z-index: 999;
     
     
     
@@ -119,13 +119,6 @@ html, body
     overflow-y: hidden;
 }
 
-#forsidetekst
-{
-    font-size: 3em;
-    position: absolute;
-    z-index: 5;
-    color: rgb(144,104,190);
-}
 
 
 
@@ -166,13 +159,25 @@ html, body
     width: 50%;
     position: absolute;
     left: 1%;
-    top: 72%;
+    top: 71%;
     background-color: rgb(37,40,57);
+    margin-bottom: 1%;
 }
 
-#left_container, #right_container
+#left_container, #right_container, #leftcontainerunderside
 {
     z-index: 3;
+}
+
+#left_containerunderside
+{
+    height: 90%;
+    width: 40%;
+    position: absolute;
+    left: 1%;
+    top: 71%;
+    background-color: rgb(37,40,57);
+    margin-bottom: 1%;
 }
 
 #foodlogo, #freelogo, #nightlifelogo, #calendarlogo
@@ -189,11 +194,12 @@ html, body
 
 #frontpagetext
 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-top: 40%;
     margin-left: 6%;
     width: 87%;
     color: rgb(230,233,240);
+    text-align: center;
 }
 
 
@@ -234,7 +240,7 @@ html, body
 #foodtext
 {
     width: 60%;
-    margin-top: 20%;
+    margin-top: 19%;
 }
 
 #freetext, #foodtext, #nightlifetext
@@ -242,12 +248,12 @@ html, body
     font-size: 2.5em;
     margin-left: 32%;
     font-weight: bold;
+    color: rgb(242,182,50);
 }
 
 #nightlifetext
 {
-    margin-top: 21%;
-    color: rgb(242,182,50);
+    margin-top: 19%;
 }
 
 #freetext
@@ -265,9 +271,10 @@ html, body
 #foodabouttext, #freeabouttext, #nightlifeabouttext
 {
     font-size: 1em;
-    margin-left: 15%;
+    margin-left: 19%;
     width: 60%;
-    color: rgb(230,233,240)
+    color: rgb(230,233,240);
+    text-align: center;
 }
 
 #foodabouttext, #nightlifeabouttext
