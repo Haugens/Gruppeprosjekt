@@ -48,12 +48,11 @@ html, body
 }
 
 
-/*#logo:hover  
+#logo:hover  
 {
-    margin-top: 1%;
-    width: 12%;
-    height: 100%;
-}*/
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
 
 
 /* Menyalternativer*/
@@ -63,11 +62,12 @@ html, body
     font-size: 1.1em;
     position: fixed;
     float: left;
-    top: 6%;
+    top: 5%;
     color: rgb(230,233,240);
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
+    padding: 0.4%;
     align-self: center;
 }
 
@@ -97,8 +97,8 @@ html, body
     transition: all 0.5s;
     color: rgb(242,182,50);
     border-bottom: solid;
-    border-bottom-width: thin;
-    border-bottom-color: rgb(242,182,50);
+    border-width: thin;
+    border-color: rgb(242,182,50);
 }
 
 #slidy
@@ -126,8 +126,8 @@ html, body
 {
     height: 100%;
     position: absolute;
-    left: 50%;
-    top: 72%;
+    right: 0.5%;
+    top: 71%;
     z-index: 3;
 }
 
@@ -135,22 +135,12 @@ html, body
 {
     position: relative;
     height: 80%;
-    width: 700px;
+    width: 56vw;
+    margin-right: 1%;
     border-style: solid;
-    
+    right: 1%;
 }
 
-#featurebox
-{
-    height: 65%;
-}
-
-#infobox
-{
-    height: 35%;
-    top: 65%;
-    border-top-style: solid;
-}
 
 
 #left_container
@@ -184,7 +174,7 @@ html, body
 {
     width: 18%;
     margin-right: 4%;
-    margin-top: 15%;
+    margin-top: 12%;
     float: left;
     opacity: 1;
     border-color: rgb(242,182,50);
