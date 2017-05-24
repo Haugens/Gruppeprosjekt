@@ -1,13 +1,15 @@
+
 <?php 
 
-$port = 8889;
-$username = 'root';
-$password = 'root';
-$name = 'dagens meny';
+$port = 21;
+$username = 'sjohen16';
+$password = 'thepasswordis123';
+$name = 'sjohen16_explorewesterdals';
+$servername = 'tek.westerdals.no';
 $today = date('w');
 
 
-$connection = new PDO("mysql:host=localhost;dbname={$name};port={$port}", $username, $password);
+$connection = new PDO("mysql:host=$servername;dbname=sjohen16_explorewesterdals", $username, $password);
 
 $statement = $connection->prepare('SELECT * FROM meny');
 $statement->execute();
@@ -25,36 +27,35 @@ while($row = $statement->fetch(PDO::FETCH_ASSOC)) {
 
     
 $dag = $menues [$today];
-
     
-   
-
-
 
 ?>
 
 
 
-
 <!DOCTYPE html>
 <html>
-    <head>  
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="../CSS/main.css" type="text/css">
 
-        <title>Vulkan</title>
+        <title>Vulkan FOOD</title>
 
     </head>
     <body>
         <div id="container">
             <div id="menybar">
                 
-                <a href="index.html">
+                <!--<a href="index.html">
                     <div id="logo"></div>
+                </a>-->
+                
+                <a href="index.html">
+                    <img id="logo" src="../Prototype/testlogo_yellow.jpg">
                 </a>
                 
                 <a href="food.html">
@@ -76,41 +77,50 @@ $dag = $menues [$today];
             </div>
             
             <div id="slideshow_hovedside"> 
-                <img id="vulkan-bilde" src="../Prototype/djbilde.jpg">  
+                <figure id="slidy">
+                    <img src="../Prototype/dognvill_utenfor.jpg">  
+                    <img src="../Prototype/dognvill_burger.jpg">
+                </figure>
             </div>
             
-            
-            
             <div id="right_container">
-                <div id="foodmapbox">
-                    <div id="featurebox">
+                
                         <h2> Dagens meny: </h2>
                         <h2 class="mdl-card__title-text"><?= $dag['matrett'] ?></h2>
                         
                         <h3 class="mdl-card__title-text"><?= $dag['beskrivelse'] ?></h3>
                         
-                    </div>
                     
-                    <div id="infobox">
+                    
+                    
                         <h2> Ingredients</h2>
-                        <h3 class="mdl-card__title-text"><?= $dag['ingredienser'] ?></h3>
+                        <h3><?= $dag['ingredienser'] ?></h3>
                         <h3 class="mdl-card__title-text"> <?= $dag['pris'] ?>kr</h3>
-                    </div>
-                </div>
-            </div>
-          
-            
-            <div id="left_container">
+                  
                 
-                <img id="foodlogo_2" src="../Prototype/food.png">
+            </div>
+            
+            <div id="left_containerunderside">
+                
+                <img id="foodlogo_2" src="../Prototype/foodlogoylw-page.png">
                 
                 <p id="foodtext">FOOD <br> AROUND VULKAN</p>
                 
-                <p id="foodabouttext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <p id="foodabouttext"> <b><b>The area around Vulkan</b> is well known for all the different restaurants, food shops and of course <i>Mathallen</i>, the well known food hall packed with different food and drinks from around the world. <br> <b>Vulkan can arguably</b> be named as one of the most cultural and most interesting areas to have a good meal. If you are looking to take a break from the everyday stress, you got several places you can either sit down and buy something delicious, or if you want to bring something from one of the many shops and take a trip down Akerselva or have a picnic in Cubaparken.<br><br>
+                Maybe you are looking for a place you can bring your work and sit down and have an intense working session either inside or outside, then you can find several quiet and comfy bars and restaurants.<br> You have also got <b>Mathallen</b>, which is a food packed hall with food from around the world. Everything from norwegian delicacies to authentic, mexican tacos. If you can not find anything you will like in here, we are sure you  have skipped something.</b> </p>
                 
             </div>
             
         </div>
-
+        <script src="../slidingpicture.js"></script>
     </body>
 </html>
+
+    
+
+
+    
+   
+
+
+
