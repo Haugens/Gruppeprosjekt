@@ -465,7 +465,7 @@ html, body
     position: absolute;
 }
 
-#dish1
+#dish2
 {
     border-style: solid;
     width: 99%; 
@@ -474,14 +474,14 @@ html, body
     height: 10%;
 }
 
-#ing1
+#ing2
 {
     left: 2%;
     bottom: 0%;
     position: absolute;
 }
 
-#kr1
+#kr2
 {
     bottom: 0%;
     position: absolute;
