@@ -1,7 +1,6 @@
 <?php
  //create connection
- $connect=mysqli_connect('tek.westerdals.no','sjohen16_dbuser','thepasswordis123','sjohen16_explorewesterdals');
-
+ $connect=mysqli_connect('localhost','dbuser','password','aktiviteter');
 	
 //check connection
  if(mysqli_connect_errno($connect))
@@ -15,6 +14,6 @@ else
 echo 'Connected Successfully!!';
 */
 
-mysqli_query($connect,"insert into aktivitet (activity,date,location,description) values('dans','2017-05-30','Brødl','Jør blær ågel zlpez')");
+mysqli_query($connect,"insert into aktivitet (activity,date,location,description) values('Hermetikkboksing','2017-05-11','Telthusbakken','Bank bank. Hvem der? Hermetikkboksing. Hermetikkboksing hvem? RAAAAAAAAAAAAARGH!!!!')");
 
 echo "<h1>this is the ting</h1>";
