@@ -404,7 +404,7 @@ $(function() {
 ]
 
     // Create the map
-    var map = new google.maps.Map($('.map-canvas')[0], {
+    var map = new google.maps.Map($('#right_container').find('.map-canvas')[0], {
         zoom: 14,
         styles: mapStyle,
         center: new google.maps.LatLng(59.9239, 10.7578)
