@@ -229,14 +229,14 @@
     right: -1px;
     margin-left: 0px; }
 
-html {
-  height: 100%;
-  font-size: 62.5%; }
-
-body {
-  height: 100%;
-  margin: 0;
-  font-size: 1.4rem; }
+#right_container
+{
+    height: 100%;
+    position: absolute;
+    right: 0.5%;
+    top: 71%;
+    z-index: 3;
+}
 
 .map-canvas {
   width: 100%;
