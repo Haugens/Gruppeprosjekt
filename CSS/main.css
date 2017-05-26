@@ -107,6 +107,13 @@ html, body
     z-index: 2;
 }
 
+#foodpicture
+{
+    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
 
 #slideshow_hovedside
 {
@@ -806,8 +813,7 @@ html, body
     padding: 40px; } }
 >>>>>>> Stashed changes
 
-<<<<<<< HEAD
-=======
+/* HEAD */
 
 
 #rest3 
@@ -863,7 +869,8 @@ html, body
 
 
 
->>>>>>> origin/master
+/* origin/master */
+
 #t2:hover ~ #rest2
 {
     opacity: 1;
