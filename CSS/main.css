@@ -107,13 +107,6 @@ html, body
     z-index: 2;
 }
 
-#foodpicture
-{
-    
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
 
 #slideshow_hovedside
 {
@@ -366,8 +359,6 @@ html, body
 
 }
 
-<<<<<<< Updated upstream
-
 #t1, #t2, #t3
 {
     left: 4%;
@@ -382,9 +373,6 @@ html, body
     filter: grayscale(0%);    
 }
 
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
 #t1
 {
     top: 0%;
@@ -811,9 +799,6 @@ html, body
   .custom-header,
   .custom-body {
     padding: 40px; } }
->>>>>>> Stashed changes
-
-/* HEAD */
 
 
 #rest3 
@@ -868,8 +853,6 @@ html, body
 }
 
 
-
-/* origin/master */
 
 #t2:hover ~ #rest2
 {
