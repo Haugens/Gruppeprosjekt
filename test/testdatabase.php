@@ -17,7 +17,7 @@ if ($dbConnection->connect_error) {
 }
 
 
-$stmt = $dbConnection->prepare("SELECT * FROM `aktivitet` WHERE date >= CURRENT_DATE()");
+$stmt = $dbConnection->prepare("SELECT * FROM `aktivitet` WHERE date >= CURRENT_DATE() ORDER BY date ASC");
 
 //$stmt->bind_param('s', $today);
 

@@ -37,9 +37,8 @@ html, body
     height: 100%;
     top: 0;
     left: 0;
-    z-index: -1;
 
-    border-bottom: 10px solid rgba(0,0,0,0.30);
+    border-bottom: 0px solid rgba(0,0,0,0.30);
     border-left: 90px solid rgba(0,0,0,0.30);
 
     transform-origin: bottom left;
@@ -56,18 +55,10 @@ html, body
     width: 90%;
     margin: 0 auto;
     background-color: rgb(37,40,57);
+    z-index: 3;
 
 }
-/*
-#calendar_container_inner{
 
-    margin: 0 auto;
-    height: 300px;
-    width: 90%;
-    background-color: rgb(37,40,57);
-
-}
-*/
 
 #logo
 {

@@ -1,6 +1,6 @@
 <?php
  //create connection
- $connect=mysqli_connect('tek.westerdals.no','sjohen16_dbuser','thepasswordis123','sjohen16_explorewesterdals');
+ $connect=mysqli_connect('tek.westerdals.no','sjohen16_post','thepasswordis123','sjohen16_explorewesterdals');
 
 	
 //check connection
