@@ -9,15 +9,36 @@ $servername = 'tek.westerdals.no';
 $today = date('w');
 
 
-$connection = new PDO("mysql:host=$servername;dbname=sjohen16_explorewesterdals", $username, $password);
+$connection = new PDO("mysql:host=$servername;dbname=$name", $username, $password);
 
-$statement = $connection->prepare('SELECT * FROM meny');
-$statement->execute();
+$statement1 = $connection->prepare('SELECT * FROM meny RIGHT JOIN restauranter ON restkode = id_navn WHERE restkode like "VNB"');
+$statement1->execute();
 
-$menues = [];
+$menu1 = [];
 
-while($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-    $menues[] = $row;
+while($row1 = $statement1->fetch(PDO::FETCH_ASSOC)) {
+    $menu1[] = $row1;
+    
+}
+
+
+$statement2 = $connection->prepare('SELECT * FROM meny RIGHT JOIN restauranter ON restkode = id_navn WHERE restkode like "VNF"');
+$statement2->execute();
+
+$menu2 = [];
+
+while($row2 = $statement2->fetch(PDO::FETCH_ASSOC)) {
+    $menu2[] = $row2;
+    
+}
+
+$statement3 = $connection->prepare('SELECT * FROM meny RIGHT JOIN restauranter ON restkode = id_navn WHERE restkode like "LYB"');
+$statement3->execute();
+
+$menu3 = [];
+
+while($row3 = $statement3->fetch(PDO::FETCH_ASSOC)) {
+    $menu3[] = $row3;
     
 }
 
@@ -26,8 +47,11 @@ while($row = $statement->fetch(PDO::FETCH_ASSOC)) {
 
 
     
-$dag = $menues [$today];
+$dag1 = $menu1 [$today];
     
+$dag2 = $menu2 [$today];
+
+$dag3 = $menu3 [$today];
 
 ?>
 
@@ -84,18 +108,75 @@ $dag = $menues [$today];
             </div>
             
             <div id="right_container">
+                <img id="t1" src="../bilder/thumb1.jpg">
+                <img id="t2" src="../bilder/thumb2.jpg">
+                <img id="t3" src="../bilder/thumb3.jpg">
+                 <div id="rest1">
+                    <div id="top">
+                    <h1>Restaraunt: <?= $dag1['navn'] ?></h1>
+                </div>
+                    
+                    <div id="picturebox">
+                    <img src="../bilder/Peppes.jpg">
+                    </div>
+                    <div id="dish1">
+                        <h1>Rett: <?= $dag1['matrett'] ?></h1>
+                    </div>
+                    <div id="ing1">
+                        <h2>Ingredienser: gluten, melk, svin</h2>
+                    </div>
+                    <div id="kr1">
+                        <h2>Kr: 129</h2>
+                    </div> 
+                </div>
+                <div id="rest2">
+                    
+                    <div id="top2">
+                    <h1>Restaraunt: Vulkanfisk</h1>
+                    </div>
+                    
+                    <div id="picturebox2">
+                        <img src="../bilder/vfisk.jpg">
+                    </div>
+                    
+                    <div id="dish2">
+                        <h1>Rett: Laks med fløtegratinertepoteter</h1>
+                    </div>
+                    
+                    <div id="ing2">
+                        <h2>fisk, potet, melk</h2>
+                    </div>
+                    
+                    <div id="kr2">
+                        <h2>Kr:99</h2>
+                    </div>
+                    
+                </div>
+
+                <div id="rest3">
+                    
+                    <div id="top3">
+                        <h1>Restaraunt: LuckyBird</h1>
+                    </div>
+                    
+                    <div id="picturebox3">
+                        <img src="../bilder/luckyb.jpg">
+                    </div>
+                    
+                    <div id="dish3">
+                        <h1>Rett: Kyllingfilet med fries</h1>
+                    </div>
+                    
+                    <div id="ing3">
+                        <h2>kylling, potet</h2>
+                    </div>
+                    
+                    <div id="kr3">
+                        <h2>Kr:109</h2>
+                    </div>
+                         
                 
-                        <h2> Dagens meny: </h2>
-                        <h2 class="mdl-card__title-text"><?= $dag['matrett'] ?></h2>
-                        
-                        <h3 class="mdl-card__title-text"><?= $dag['beskrivelse'] ?></h3>
-                        
-                    
-                    
-                    
-                        <h2> Ingredients</h2>
-                        <h3><?= $dag['ingredienser'] ?></h3>
-                        <h3 class="mdl-card__title-text"> <?= $dag['pris'] ?>kr</h3>
+              </div>
                   
                 
             </div>
