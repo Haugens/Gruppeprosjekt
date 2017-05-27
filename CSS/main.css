@@ -380,7 +380,7 @@ html, body
     filter: grayscale(0%);    
 }
 
-#t1
+#t1, #u1
 {
     top: 0%;
     height: 5%;
@@ -388,7 +388,7 @@ html, body
     position: absolute;
 }
 
-#t2
+#t2, #u2
 {
     top: 5.5%;
     height: 5%;
@@ -396,7 +396,7 @@ html, body
     position: absolute;
 }
 
-#t3
+#t3, #u3
 {
     top: 11%;
     height: 5%;
@@ -404,7 +404,7 @@ html, body
     position: absolute;
 }
 
-#rest1, #rest2, #rest3
+#rest1, #rest2, #rest3, #ute1, #ute2, #ute3
 {
     height: 90%;
     width: 91%;
@@ -414,17 +414,17 @@ html, body
     background-color: rgb(37,40,57);
 }
 
-#rest2 
+#rest2, #ute2 
 {
     opacity: 0;
 }
 
-#rest3
+#rest3, #ute3
 {
     opacity: 0;
 }
 
-#top, #top2, #top3
+#top, #top2, #top3, #utop1, #utop2, #utop3
 {
     border-bottom-style: solid;
     border-width: thin;
@@ -436,7 +436,7 @@ html, body
     text-align: center;
 }
 
-#picturebox, #picturebox2, #picturebox3
+#picturebox, #picturebox2, #picturebox3, #upicturebox1, #upicturebox2, #upicturebox3
 {
     padding: 5%;
     left: 16%;
@@ -450,7 +450,7 @@ html, body
     border-color: rgb(242, 182, 50);
 }
 
-#picturebox2
+#picturebox2,  #upicturebox2, #upicturebox3
 {
     height: 80%;
 }
@@ -460,7 +460,7 @@ html, body
     height: 80%;
 }
 
-#dish1, #dish2, #dish3
+#dish1, #dish2, #dish3, #id1, #id2, #id3
 {
     border-bottom-style: solid;
     border-top-style: solid;
@@ -865,6 +865,26 @@ html, body
 }
 
 #t3:hover ~ #rest1
+{
+    opacity: 0;
+}
+
+#u2:hover ~ #ute2
+{
+    opacity: 1;
+}
+
+#u2:hover ~ #ute1
+{
+    opacity: 0;
+}
+
+#u3:hover ~ #ute3
+{
+    opacity: 1;
+}
+
+#u3:hover ~ #ute1
 {
     opacity: 0;
 }
