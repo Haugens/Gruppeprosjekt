@@ -102,8 +102,8 @@ $dag3 = $menu3 [$today];
             
             <div id="slideshow_hovedside"> 
                 <figure id="slidy">
-                    <img src="../Prototype/dognvill_utenfor.jpg">  
-                    <img src="../Prototype/dognvill_burger.jpg">
+                    <img id="foodpicture" src="../Prototype/foodpicture1.jpg">  
+                    <img id="foodpicture" src="../Prototype/foodpicture2.jpg">
                 </figure>
             </div>
             
@@ -113,67 +113,76 @@ $dag3 = $menu3 [$today];
                 <img id="t3" src="../bilder/thumb3.jpg">
                  <div id="rest1">
                     <div id="top">
-                    <h1>Restaraunt: <?= $dag1['navn'] ?></h1>
+                    <h1>Restaraunt: <?= $dag3['navn'] ?></h1>
                 </div>
                     
                     <div id="picturebox">
-                    <img src="../bilder/Peppes.jpg">
+                    <img src="../Prototype/luckybirdbilde.jpg">
                     </div>
                     <div id="dish1">
-                        <h1>Rett: <?= $dag1['matrett'] ?></h1>
+                        <h1>Rett: <?= $dag3['matrett'] ?></h1>
                     </div>
-                    <div id="ing1">
+                     
+                     <p id="Aboutrest"><b>Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
+                    They serve what they like to call american food with a southern american touch to it: Chicken and spear ribs with traditional sides like Mac'n'cheese, baked beanes and corn stew. We use only the best ingredients and serve large and generous portions!<br>Our restaurant is inspired by american chicken shacks and we strive to make the good old american atmosphere here at Vulkan.</b></p>
+                   <!-- <div id="ing1">
                         <h2>Ingredienser: gluten, melk, svin</h2>
                     </div>
                     <div id="kr1">
                         <h2>Kr: 129</h2>
-                    </div> 
+                    </div> -->
                 </div>
                 <div id="rest2">
                     
                     <div id="top2">
-                    <h1>Restaraunt: Vulkanfisk</h1>
+                    <h1>Restaraunt: <?= $dag2['navn'] ?></h1>
                     </div>
                     
                     <div id="picturebox2">
-                        <img src="../bilder/vfisk.jpg">
+                        <img src="../Prototype/vulkanfiskbilde.jpg">
                     </div>
                     
                     <div id="dish2">
-                        <h1>Rett: Laks med fløtegratinertepoteter</h1>
+                        <h1>Rett: <?= $dag2['matrett'] ?></h1>
                     </div>
                     
-                    <div id="ing2">
+                    <p id="Aboutrest"><b>Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
+                    They serve what they like to call american food with a southern american touch to it: Chicken and spear ribs with traditional sides like Mac'n'cheese, baked beanes and corn stew. We use only the best ingredients and serve large and generous portions!<br>Our restaurant is inspired by american chicken shacks and we strive to make the good old american atmosphere here at Vulkan.</b></p>
+                    
+                    <!--<div id="ing2">
                         <h2>fisk, potet, melk</h2>
                     </div>
                     
                     <div id="kr2">
                         <h2>Kr:99</h2>
-                    </div>
+                    </div>-->
                     
                 </div>
 
                 <div id="rest3">
                     
                     <div id="top3">
-                        <h1>Restaraunt: LuckyBird</h1>
+                        <h1>Restaraunt: <?= $dag1['navn'] ?></h1>
                     </div>
                     
                     <div id="picturebox3">
-                        <img src="../bilder/luckyb.jpg">
+                        <img src="../Prototype/barvulkanbilde.jpg">
                     </div>
                     
                     <div id="dish3">
-                        <h1>Rett: Kyllingfilet med fries</h1>
+                        <h1>Rett: <?= $dag1['matrett'] ?></h1>
                     </div>
                     
-                    <div id="ing3">
+                    <p id="Aboutrest"><b>Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
+                    They serve what they like to call american food with a southern american touch to it: Chicken and spear ribs with traditional sides like Mac'n'cheese, baked beanes and corn stew. We use only the best ingredients and serve large and generous portions!<br>Our restaurant is inspired by american chicken shacks and we strive to make the good old american atmosphere here at Vulkan.</b></p>
+                    
+                   <!-- <div id="ing3">
                         <h2>kylling, potet</h2>
                     </div>
                     
                     <div id="kr3">
                         <h2>Kr:109</h2>
-                    </div>
+                    </div> -->
                          
                 
               </div>
