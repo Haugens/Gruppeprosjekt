@@ -150,13 +150,6 @@ $dag3 = $menu3 [$today];
                     <p id="Aboutrest"><b>Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
                     They serve what they like to call american food with a southern american touch to it: Chicken and spear ribs with traditional sides like Mac'n'cheese, baked beanes and corn stew. We use only the best ingredients and serve large and generous portions!<br>Our restaurant is inspired by american chicken shacks and we strive to make the good old american atmosphere here at Vulkan.</b></p>
                     
-                    <!--<div id="ing2">
-                        <h2>fisk, potet, melk</h2>
-                    </div>
-                    
-                    <div id="kr2">
-                        <h2>Kr:99</h2>
-                    </div>-->
                     
                 </div>
 
