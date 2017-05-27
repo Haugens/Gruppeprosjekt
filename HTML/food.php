@@ -83,7 +83,7 @@ $dag3 = $menu3 [$today];
                     <div class="food"> FOOD </div>
                 </a>
                 
-                <a href="free_activities.html">
+                <a href="free_activities.php">
                     <div class="free_activities"> FREE ACTIVITIES </div>
                 </a>
                 
