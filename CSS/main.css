@@ -451,6 +451,12 @@ html, body
     position: absolute;
 }
 
+#restaurantbilde
+{
+    border-style: solid;
+    border-color: rgb(242, 182, 50);
+}
+
 #picturebox2
 {
     height: 80%;
