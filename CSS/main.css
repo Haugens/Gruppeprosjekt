@@ -3,7 +3,7 @@ html, body
     height: 100%;
     margin: 0;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: rgb(230,233,240);
+    background: linear-gradient(to right, rgb(193, 193, 193) , rgb(230,233,240));
 }
 
 
@@ -421,6 +421,7 @@ html, body
 #top, #top2
 {
     border-bottom-style: solid;
+    border-width: thin;
     border-color: rgb(230,233,240);
     height: 10%;
     width: 60%
@@ -447,6 +448,7 @@ html, body
     border-bottom-style: solid;
     border-top-style: solid;
     border-color: rgb(230,233,240);
+    border-width: thin;
     width: 100%; 
     bottom: 12%;
     position: absolute;
