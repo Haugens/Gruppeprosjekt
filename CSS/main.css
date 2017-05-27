@@ -6,6 +6,18 @@ html, body
     background: linear-gradient(to right, rgb(193, 193, 193) , rgb(230,233,240));
 }
 
+#phover, #phover2
+{
+    position: absolute;
+    left: 45.5%;
+    top: 100%;
+    z-index: 999;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+    color: rgb(37,40,57);
+}
+
 
 #container
 {
@@ -888,3 +900,4 @@ html, body
 {
     opacity: 0;
 }
+

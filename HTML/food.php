@@ -104,6 +104,10 @@ $dag3 = $menu3 [$today];
                 </figure>
             </div>
             
+            <div id="phover">
+            <h1><?php require 'hover.php';?></h1>
+        </div>
+            
             <div id="right_container">
                 <img id="t1" src="../bilder/thumb1.jpg">
                 <img id="t2" src="../bilder/thumb2.jpg">
@@ -170,7 +174,7 @@ $dag3 = $menu3 [$today];
                         <h1>Rett: <?= $dag1['matrett'] ?></h1>
                     </div>
                     
-                    <p id="Aboutrest"><b>Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
+                    <p id="Aboutrest"><b> Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
                     They serve what they like to call american food with a southern american touch to it: Chicken and spear ribs with traditional sides like Mac'n'cheese, baked beanes and corn stew. We use only the best ingredients and serve large and generous portions!<br>Our restaurant is inspired by american chicken shacks and we strive to make the good old american atmosphere here at Vulkan.</b></p>
                     
                    <!-- <div id="ing3">
@@ -183,6 +187,8 @@ $dag3 = $menu3 [$today];
                          
                 
               </div>
+                
+            
                   
                 
             </div>
@@ -193,12 +199,16 @@ $dag3 = $menu3 [$today];
                 
                 <p id="foodtext">FOOD <br> AROUND VULKAN</p>
                 
-                <p id="foodabouttext"> <b><b>The area around Vulkan</b> is well known for all the different restaurants, food shops and of course <i>Mathallen</i>, the well known food hall packed with different food and drinks from around the world. <br> <b>Vulkan can arguably</b> be named as one of the most cultural and most interesting areas to have a good meal. If you are looking to take a break from the everyday stress, you got several places you can either sit down and buy something delicious, or if you want to bring something from one of the many shops and take a trip down Akerselva or have a picnic in Cubaparken.<br><br>
+                <p id="foodabouttext"> <b><b> The area around Vulkan</b> is well known for all the different restaurants, food shops and of course <i>Mathallen</i>, the well known food hall packed with different food and drinks from around the world. <br> <b>Vulkan can arguably</b> be named as one of the most cultural and most interesting areas to have a good meal. If you are looking to take a break from the everyday stress, you got several places you can either sit down and buy something delicious, or if you want to bring something from one of the many shops and take a trip down Akerselva or have a picnic in Cubaparken.<br><br>
                 Maybe you are looking for a place you can bring your work and sit down and have an intense working session either inside or outside, then you can find several quiet and comfy bars and restaurants.<br> You have also got <b>Mathallen</b>, which is a food packed hall with food from around the world. Everything from norwegian delicacies to authentic, mexican tacos. If you can not find anything you will like in here, we are sure you  have skipped something.</b> </p>
                 
             </div>
             
         </div>
+        
+        
+        
+       
         <script src="../slidingpicture.js"></script>
     </body>
 </html>
