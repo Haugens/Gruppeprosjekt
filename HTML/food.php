@@ -73,16 +73,13 @@ $dag3 = $menu3 [$today];
     <body>
         <div id="container">
             <div id="menybar">
-                
-                <!--<a href="index.html">
-                    <div id="logo"></div>
-                </a>-->
+               
                 
                 <a href="index.html">
                     <img id="logo" src="../Prototype/testlogo_yellow.jpg">
                 </a>
                 
-                <a href="food.html">
+                <a href="food.php">
                     <div class="food"> FOOD </div>
                 </a>
                 
@@ -90,7 +87,7 @@ $dag3 = $menu3 [$today];
                     <div class="free_activities"> FREE ACTIVITIES </div>
                 </a>
                 
-                <a href="nightlife.html">
+                <a href="nightlife.php">
                     <div class="nightlife"> NIGHTLIFE </div>
                 </a>
                 
