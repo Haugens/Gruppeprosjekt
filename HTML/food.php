@@ -114,7 +114,7 @@ $dag3 = $menu3 [$today];
                 </div>
                     
                     <div id="picturebox">
-                    <img src="../Prototype/luckybirdbilde.jpg">
+                    <img id="restaurantbilde" src="../Prototype/luckybirdbilde.jpg">
                     </div>
                     <div id="dish1">
                         <h1>Rett: <?= $dag3['matrett'] ?></h1>
@@ -136,7 +136,7 @@ $dag3 = $menu3 [$today];
                     </div>
                     
                     <div id="picturebox2">
-                        <img src="../Prototype/vulkanfiskbilde.jpg">
+                        <img id="restaurantbilde" src="../Prototype/vulkanfiskbilde.jpg">
                     </div>
                     
                     <div id="dish2">
@@ -163,7 +163,7 @@ $dag3 = $menu3 [$today];
                     </div>
                     
                     <div id="picturebox3">
-                        <img src="../Prototype/barvulkanbilde.jpg">
+                        <img id="restaurantbilde" src="../Prototype/barvulkanbilde.jpg">
                     </div>
                     
                     <div id="dish3">
