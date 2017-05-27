@@ -310,73 +310,7 @@ html, body
     padding-top: 126px;
 }
 
-.date-div{
-    
-    overflow: hidden;
-    position: relative;
-    
-    padding: 20px;
-    margin: 2em 0;
-    height: 100px;
-    width: 10%;
-    /*
-    border-top-left-radius: 20%;
-    border-top-right-radius: -100px;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: -10%;
-    */
-    background-color: #ff6a45;
-    margin-right: 30px;
-    float: left;
-    background:
-        -moz-radial-gradient(0 100%, circle, rgba(204,0,0,0) 14px, #c00 15px),
-        -moz-radial-gradient(100% 100%, circle, rgba(204,0,0,0) 14px, #c00 15px),
-        -moz-radial-gradient(100% 0, circle, rgba(204,0,0,0) 14px, #c00 15px),
-        -moz-radial-gradient(0 0, circle, rgba(204,0,0,0) 14px, #c00 15px);
-    background:
-         -o-radial-gradient(0 100%, circle, rgba(204,0,0,0) 14px, #c00 15px),
-         -o-radial-gradient(100% 100%, circle, rgba(204,0,0,0) 14px, #c00 15px),
-         -o-radial-gradient(100% 0, circle, rgba(204,0,0,0) 14px, #c00 15px),
-         -o-radial-gradient(0 0, circle, rgba(204,0,0,0) 14px, #c00 15px);
-    background:
-         -webkit-radial-gradient(0 100%, circle, rgba(204,0,0,0) 14px, #c00 15px),
-         -webkit-radial-gradient(100% 100%, circle, rgba(204,0,0,0) 14px, #c00 15px),
-         -webkit-radial-gradient(100% 0, circle, rgba(204,0,0,0) 14px, #c00 15px),
-         -webkit-radial-gradient(0 0, circle, rgba(204,0,0,0) 14px, #c00 15px);
-    
-    
-    background-position: bottom left, bottom right, top right, top left;
-    
-    -moz-background-size: 51% 51%;
-    -webkit-background-size: 51% 51%;
-    background-size: 51% 51%;
-    background-repeat: no-repeat;
-}
 
-.date-div h3{
-    margin: 0 auto;
-    text-align: center;
-    font-size: 1.6em;
-}
-
-.date-div:before{
-    content:"";
-    position: absolute;
-    top:0;
-    right: 0;
-    border-width: 0 26px 26px 0px;
-    border-style: solid;
-    border-color: #e7e19e #ffa75e;
-}
-
-.date-div:after{
-    content:"";
-    
-}
-
-.date-div{
-
-}
 
 #t1, #t2, #t3, #u1, #u2, #u3
 {
@@ -442,7 +376,7 @@ html, body
     border-width: thin;
     border-color: rgb(230,233,240);
     height: 10%;
-    width: 60%
+    width: 60%;
     position: absolute; 
     color: rgb(242,182,50);
     text-align: center;
@@ -524,7 +458,7 @@ html, body
 }
 
 
-=======
+
 .si-float-wrapper {
   position: absolute;
   width: 100%; }
@@ -602,7 +536,7 @@ html, body
 .si-shadow-pointer-right {
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
-          order: -1; }
+          order: 0; }
 
 .si-shadow-frame {
   box-shadow: 0 4px 6px 0 #000; }
