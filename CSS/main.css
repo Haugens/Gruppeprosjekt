@@ -483,10 +483,13 @@ html, body
 
 #Aboutrest
 {
-    width: 70%;
-    left: 30%;
+    position: absolute;
+    width: 100%;
     text-align: center;
-    color: rgb(242,182,50);
+    /*color: rgb(242,182,50);*/
+    color: rgb(230,233,240);
+    bottom: 15%;
+    font-size: 1em;
 }
 
 
