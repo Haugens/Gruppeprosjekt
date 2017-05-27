@@ -405,7 +405,7 @@ html, body
 
 #rest1, #rest2, #rest3
 {
-    height: 70%;
+    height: 90%;
     width: 91%;
     left: 8%;
     top: 0%;
@@ -454,8 +454,8 @@ html, body
     border-top-style: solid;
     border-color: rgb(230,233,240);
     border-width: thin;
-    width: 100%; 
-    bottom: 12%;
+    width: 100%;
+    bottom: 30%;
     position: absolute;
     height: 10%;
     color: rgb(242,182,50);
@@ -463,7 +463,7 @@ html, body
     padding-bottom: 1%;
 }
 
-#ing1, #ing2, #ing3
+/*#ing1, #ing2, #ing3
 {
     left: 3%;
     bottom: 1%;
@@ -477,6 +477,15 @@ html, body
     bottom: 1%;
     position: absolute;
     right: 3%;
+    color: rgb(242,182,50);
+}
+*/
+
+#Aboutrest
+{
+    width: 70%;
+    left: 30%;
+    text-align: center;
     color: rgb(242,182,50);
 }
 
