@@ -366,7 +366,7 @@ html, body
 
 }
 
-#t1, #t2, #t3
+#t1, #t2, #t3, #u1, #u2, #u3
 {
     left: 4%;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -374,7 +374,7 @@ html, body
     cursor: crosshair;
 }
 
-#t1:hover , #t2:hover , #t3:hover
+#t1:hover , #t2:hover , #t3:hover, #u1:hover, #u2:hover, #u3:hover
 {
      -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);    
