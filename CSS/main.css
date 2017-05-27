@@ -193,6 +193,14 @@ html, body
     text-align: center;
 }
 
+#frontpagetextlist
+{
+    font-size: 1.2em;
+    margin-left: 6%;
+    width: 87%;
+    color: rgb(230,233,240);
+}
+
 
 
 #foodlogo
@@ -481,14 +489,15 @@ html, body
 }
 */
 
-#Aboutrest
+#Aboutrest, #Aboutrest2
 {
     position: absolute;
-    width: 100%;
+    width: 90%;
+    left: 5%;
     text-align: center;
     /*color: rgb(242,182,50);*/
     color: rgb(230,233,240);
-    bottom: 15%;
+    bottom: 10%;
     font-size: 1em;
 }
 
