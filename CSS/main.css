@@ -397,7 +397,7 @@ html, body
 
 #t2
 {
-    top: 6%;
+    top: 5.5%;
     height: 5%;
     width: 5%;
     position: absolute;
@@ -405,7 +405,7 @@ html, body
 
 #t3
 {
-    top: 12%;
+    top: 11%;
     height: 5%;
     width: 5%;
     position: absolute;
@@ -456,6 +456,11 @@ html, body
     height: 80%;
 }
 
+#picturebox3
+{
+    height: 80%;
+}
+
 #dish1, #dish2, #dish3
 {
     border-bottom-style: solid;
@@ -470,6 +475,7 @@ html, body
     text-align: center;
     padding-bottom: 1%;
 }
+
 
 /*#ing1, #ing2, #ing3
 {
@@ -489,7 +495,7 @@ html, body
 }
 */
 
-#Aboutrest, #Aboutrest2
+#Aboutrest, #Aboutrest2, #Aboutrest3
 {
     position: absolute;
     width: 90%;
@@ -499,6 +505,11 @@ html, body
     color: rgb(230,233,240);
     bottom: 10%;
     font-size: 1em;
+}
+
+#aboutrest3
+{
+    left: 0%;
 }
 
 
