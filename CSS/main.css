@@ -380,6 +380,7 @@ html, body
 {
     border-style: solid;
     border-color: rgb(242, 182, 50);
+    object-fit: contain;
 }
 
 #picturebox2, #picturebox3,  #upicturebox2, #upicturebox3
