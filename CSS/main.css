@@ -11,15 +11,12 @@ html, body
     position: absolute;
     left: 44.8%;
     top: 100%;
-<<<<<<< Updated upstream
     z-index: 200;
     -ms-transform: rotate(-90deg); 
     -webkit-transform: rotate(-90deg); 
-=======
     z-index: 999;
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
->>>>>>> Stashed changes
     transform: rotate(-90deg);
     color: rgb(37,40,57);
 }
@@ -297,13 +294,12 @@ html, body
     position: absolute;
 }
 
-<<<<<<< Updated upstream
-#freeabouttext, #nightlifeabouttext
-=======
+
+
 
 /*om-text på underside*/
-#foodabouttext, #freeabouttext, #nightlifeabouttext
->>>>>>> Stashed changes
+#freeabouttext, #nightlifeabouttext
+
 {
     font-size: 1em;
     margin-left: 19%;
@@ -354,6 +350,7 @@ html, body
     height: 5%;
     width: 5%;
     position: absolute;
+    left: 2.8%;
 }
 
 #t2, #u2
@@ -362,6 +359,7 @@ html, body
     height: 5%;
     width: 5%;
     position: absolute;
+    left: 2.8%;
 }
 
 #t3, #u3
@@ -370,6 +368,7 @@ html, body
     height: 5%;
     width: 5%;
     position: absolute;
+    left: 2.8%;
 }
 
 #rest1, #rest2, #rest3, #ute1, #ute2, #ute3

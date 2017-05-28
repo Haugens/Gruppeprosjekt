@@ -109,12 +109,12 @@ $dag3 = $menu3 [$today];
             <h1><?php require 'hover.php';?></h1>
         </div>
             
-            <img id="harrow" src="../bilder/1280px-Arrow_east.svg.png">
+            <img id="harrow" src="../Prototype/Arrow.png">
             
             <div id="right_container">
-                <img id="t1" src="../bilder/thumb1.jpg">
-                <img id="t2" src="../bilder/thumb2.jpg">
-                <img id="t3" src="../bilder/thumb3.jpg">
+                <img id="t1" src="../Prototype/LYB.png">
+                <img id="t2" src="../Prototype/VNF.png">
+                <img id="t3" src="../Prototype/VNB.png">
                  <div id="rest1">
                     <div id="top">
                     <h1>Restaraunt: <?= $dag3['navn'] ?></h1>
@@ -124,7 +124,7 @@ $dag3 = $menu3 [$today];
                     <img id="restaurantbilde" src="../Prototype/luckybirdbilde.jpg">
                     </div>
                     <div id="dish1">
-                        <h1>Rett: <?= $dag3['matrett'] ?></h1>
+                        <h1>Today's special: <?= $dag3['matrett'] ?></h1>
                     </div>
                      
                      <p id="Aboutrest"><b>Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
@@ -142,11 +142,10 @@ $dag3 = $menu3 [$today];
                     </div>
                     
                     <div id="dish2">
-                        <h1>Rett: <?= $dag2['matrett'] ?></h1>
+                        <h1>Today's special: <?= $dag2['matrett'] ?></h1>
                     </div>
                     
-                    <p id="Aboutrest"><b>Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
-                    They serve what they like to call american food with a southern american touch to it: Chicken and spear ribs with traditional sides like Mac'n'cheese, baked beanes and corn stew. We use only the best ingredients and serve large and generous portions!<br>Our restaurant is inspired by american chicken shacks and we strive to make the good old american atmosphere here at Vulkan.</b></p>
+                    <p id="Aboutrest2"><b>Vulkanfisk is a restaurant serving norwegian sea food, and they are located inside Mathallen at Vulkan. They claim they love seafood and that they know the story behind each and every ingredient they use making your delicious meal. They use only the best suppliers which is just as passionate about the food as they are - and they truely believe you will experience that as a guest as well!</b></p>
                     
                     
                 </div>
@@ -162,11 +161,10 @@ $dag3 = $menu3 [$today];
                     </div>
                     
                     <div id="dish3">
-                        <h1>Rett: <?= $dag1['matrett'] ?></h1>
+                        <h1>Today's special: <?= $dag1['matrett'] ?></h1>
                     </div>
                     
-                    <p id="Aboutrest"><b> Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
-                    They serve what they like to call american food with a southern american touch to it: Chicken and spear ribs with traditional sides like Mac'n'cheese, baked beanes and corn stew. We use only the best ingredients and serve large and generous portions!<br>Our restaurant is inspired by american chicken shacks and we strive to make the good old american atmosphere here at Vulkan.</b></p>
+                    <p id="Aboutrest3"><b>BAR Vulkan is a restaurant and bar with an outdoor seating area by the river and a big rooftop terrace overlooking the city. They can offer you an evening of delicious food and wine,<br> exciting cocktails and good music. Eating at BAR Vulkan should be a sociable and exciting experience. Our chefs draw inspiration from around the world and all our dishes are made to be shared.</b></p>
                     
                
                          
