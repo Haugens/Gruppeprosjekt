@@ -11,9 +11,15 @@ html, body
     position: absolute;
     left: 44.8%;
     top: 100%;
+<<<<<<< Updated upstream
     z-index: 200;
     -ms-transform: rotate(-90deg); 
     -webkit-transform: rotate(-90deg); 
+=======
+    z-index: 999;
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+>>>>>>> Stashed changes
     transform: rotate(-90deg);
     color: rgb(37,40,57);
 }
@@ -47,13 +53,12 @@ html, body
     border-bottom-color: rgb(230,233,240);
     position: fixed;
     left: 0%;
-    z-index: 4;
-    
+    z-index: 4;   
 }
+
 
 #logo
 {
-    /*background-image: url("../Prototype/testlogo_yellow.jpg");*/
     width: 10%;
     height: 100%;
     background-size: contain;
@@ -61,8 +66,6 @@ html, body
     margin-top: 0%;
     margin-left: 45%;
     z-index: 999;
-    
-    
     
     webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -95,6 +98,7 @@ html, body
     align-self: center;
 }
 
+/*menyalternativer i menybaren*/
 .food
 {
     right: 80%;
@@ -125,6 +129,7 @@ html, body
     border-color: rgb(242,182,50);
 }
 
+/*slideshow*/
 #slidy
 {
     overflow: inherit;
@@ -143,9 +148,7 @@ html, body
     overflow-y: hidden;
 }
 
-
-
-
+/*høyre container*/
 #right_container
 {
     height: 100%;
@@ -167,7 +170,7 @@ html, body
 }
 
 
-
+/*venstre container på forsiden*/
 #left_container
 {
     height: 90%;
@@ -184,6 +187,8 @@ html, body
     z-index: 3;
 }
 
+
+/*vestre container på undersiden*/
 #left_containerunderside
 {
     height: 90%;
@@ -195,6 +200,8 @@ html, body
     margin-bottom: 1%;
 }
 
+
+/*logoene i venstre container*/
 #foodlogo, #freelogo, #nightlifelogo, #calendarlogo
 {
     width: 18%;
@@ -245,7 +252,7 @@ html, body
     transform: scale(1.1);
 }
 
-
+/*_2 er på underside*/
 #freelogo_2
 {
     transform: scale(1.3)
@@ -264,7 +271,7 @@ html, body
     width: 60%;
     margin-top: 19%;
 }
-
+/*text på underside*/
 #freetext, #foodtext, #nightlifetext
 {
     font-size: 2.5em;
@@ -290,7 +297,13 @@ html, body
     position: absolute;
 }
 
+<<<<<<< Updated upstream
 #freeabouttext, #nightlifeabouttext
+=======
+
+/*om-text på underside*/
+#foodabouttext, #freeabouttext, #nightlifeabouttext
+>>>>>>> Stashed changes
 {
     font-size: 1em;
     margin-left: 19%;
@@ -320,7 +333,7 @@ html, body
     margin-top: 10%;
 }
 
-
+/*food og nightlife-container*/
 #t1, #t2, #t3, #u1, #u2, #u3
 {
     left: 4%;
