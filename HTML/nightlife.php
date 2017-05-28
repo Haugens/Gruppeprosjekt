@@ -59,12 +59,14 @@
                     </div>
                     
                     <div id="upicturebox1">
-                        <img src="../bilder/luckyb.jpg">
+                        <img id="restaurantbilde" src="../Prototype/blaabilde.jpg">
                     </div>
                     
                     <div id="id1">
                         <h1>ID:18</h1>
                     </div>
+                    
+                    <p id="Aboutrest"><b>BLÅ. One of the most iconic and oldest bars in Oslo. Being seen upon as one of the trendiest places you can hang out at on a night out, they are usually playing newest and most popular underground music our there. They are not only one of the best bars in Oslo, but they are one of the most cultural places you can be. They are arranging concerst and other activities almost every day.Being just a 2 minute walk from the other bar we feature here "Taxi Take Away", we asure you that if you combine these to on a night out in the weekend, you are going to have a good time. </b></p>
                         
                 </div>
                 
@@ -75,26 +77,32 @@
                     </div>
                     
                     <div id="upicturebox2">
+                        <img id="restaurantbilde" src="../Prototype/vulkanarenabilde.jpg">
                     </div>
                     
                     <div id="id2">
                         <h1>ID:18</h1>
                     </div>
                     
+                    <p id="Aboutrest"><b>VULKAN ARENA, one of the best arenas in all over Oslo. The arena is very intimate and even the worst performers become gods in there.<br>Even though they are not the biggest venue in Oslo, they are booking big stars quite often. Names like Joey Bada$$ and Dragonforce are coming in 2017, and we are sure more big names will show up later on as well.<br>They have a really good bar for serving you cold drinks and beers while you listen to your favourite perfomer, so do not hesitate going there if you can see any artist you would like to watch perform live! </b></p>
+                    
                 </div>
                 
                 <div id="ute3">
                     
                     <div id="utop3">
-                        <h1>Club: Vulkan Arena</h1>
+                        <h1>Club: </h1>
                     </div>
                     
                     <div id="upicturebox3">
+                        <img id="restaurantbilde" src="../Prototype/taxitakeawaybilde.jpg">
                     </div>
                     
                     <div id="id3">
                         <h1>ID:20</h1>
                     </div>
+                    
+                    <p id="Aboutrest"><b>TAXI TAKE AWAT might have the ugliest front out of all of the bars in Oslo. It might be because then they can serve their beer cheaper or some other reason we don't know of.<br>Main thing is it is one of the most special places in all over Oslo by just looking at the atmosphere. It is a chill and calm bar with cheap beers and drinks. If you want alternative people, you have chosen the right place. <br>You get a bit more alternative music than you do at the most popular bars and clubs in Oslo, and who does'nt like that! Everything from old school hip hop to alternative rock!</b></p>
                     
                 </div>
             
