@@ -66,6 +66,7 @@ $dag3 = $menu3 [$today];
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="stylesheet" href="../CSS/main.css" type="text/css">
+        <link rel="favicon" href="../Prototype/favicon.ico">
 
         <title>Vulkan FOOD</title>
 

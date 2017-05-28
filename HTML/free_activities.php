@@ -9,6 +9,7 @@
         <meta name="author" content="">
         <link rel="stylesheet" href="../CSS/main.css" type="text/css">
         <link rel="stylesheet" href="../styles.css">
+        <link rel="favicon" href="../Prototype/favicon.ico">
 
         <title>Vulkan: Free Activities</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
