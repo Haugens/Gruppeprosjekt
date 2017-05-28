@@ -24,7 +24,7 @@ html, body
     color: rgb(37,40,57);
 }
 
-#harrow
+#harrow, #harrow2
 {
     position: absolute;
     z-index: 201;
