@@ -9,13 +9,25 @@ html, body
 #phover, #phover2
 {
     position: absolute;
-    left: 45.5%;
+    left: 44.8%;
     top: 100%;
-    z-index: 999;
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Safari */
+    z-index: 200;
+    -ms-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
     transform: rotate(-90deg);
     color: rgb(37,40,57);
+}
+
+#harrow
+{
+    position: absolute;
+    z-index: 201;
+    height: 3%;
+    left: 46.2%;
+    -ms-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    top: 92%;
 }
 
 
@@ -278,13 +290,24 @@ html, body
     position: absolute;
 }
 
-#foodabouttext, #freeabouttext, #nightlifeabouttext
+#freeabouttext, #nightlifeabouttext
 {
     font-size: 1em;
     margin-left: 19%;
     width: 60%;
     color: rgb(230,233,240);
     text-align: center;
+    height: 50%;
+}
+
+#foodabouttext
+{
+    font-size: 0.94em;
+    margin-left: 19%;
+    width: 60%;
+    color: rgb(230,233,240);
+    text-align: center;
+    height: 50%;
 }
 
 #foodabouttext, #nightlifeabouttext
@@ -372,9 +395,9 @@ html, body
 #picturebox, #picturebox2, #picturebox3, #upicturebox1, #upicturebox2, #upicturebox3
 {
     padding: 5%;
-    left: 22%;
-    width: 80%;
-    bottom: 41%;
+    left: 18%;
+    width: 50%;
+    bottom: 38.5%;
     position: absolute;
 }
 
@@ -383,6 +406,7 @@ html, body
     border-style: solid;
     border-color: rgb(242, 182, 50);
     object-fit: contain;
+    width: 110%;
 }
 
 
@@ -404,33 +428,17 @@ html, body
 }
 
 
-/*#ing1, #ing2, #ing3
-{
-    left: 3%;
-    bottom: 1%;
-    position: absolute;
-    color: rgb(242,182,50);
-    
-}
 
-#kr1, #kr2, #kr3
-{
-    bottom: 1%;
-    position: absolute;
-    right: 3%;
-    color: rgb(242,182,50);
-}
-*/
 
 #Aboutrest, #Aboutrest2, #Aboutrest3
 {
     position: absolute;
     width: 90%;
-    left: 5%;
+    left: 6%;
     text-align: center;
     /*color: rgb(242,182,50);*/
     color: rgb(230,233,240);
-    bottom: 10%;
+    bottom: 3%;
     font-size: 1em;
 }
 
