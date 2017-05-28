@@ -11,13 +11,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
      die("Connection failed: " . $conn->connect_error);
-} 
-//$sql = "SELECT activity, date, location, description FROM aktivitet";
+}
 $sql = "SELECT * FROM aktivitet WHERE date LIKE \"$today\"";
-/*
-echo nl2br ("This is the date: $today\n");
-echo nl2br ("This is the text: $sql\n");
-*/
 
 $activities = array();
 

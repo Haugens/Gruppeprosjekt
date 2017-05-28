@@ -1,16 +1,1 @@
-$(document).ready(function() {
-    var height = $("#menybar").height();
-    if(height > 0)
-    {
-        $("#calendar_container").css("margin-top",height-10);
-    }
-});
-
-$(window).resize(function() {
-    var height = $("#menybar").height();
-    if(height > 0)
-    {
-        $("#calendar_container").css("margin-top",height-10);
-    }
-});
-
+function setupMargin(){    var height = $("#menybar").height();    if(height > 0)    {        $("#calendar_container").css("margin-top",height-10);    }}$(document).ready(function() {    setupMargin();});$(window).resize(function() {    setupMargin();});

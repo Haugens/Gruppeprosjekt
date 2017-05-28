@@ -12,7 +12,7 @@
     <!--<link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.print.css" rel="stylesheet" type="text/css">-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="../JS/fetch.js"></script>
-    <script src="../JS/testingfetch.js"></script>
+    <script src="../JS/fetchactivities.js"></script>
     <script src="../JS/fixedfix.js"></script>
 
 </head>
