@@ -19,19 +19,19 @@
                     <img id="logo" src="../Prototype/testlogo_yellow.jpg">
                 </a>
                 
-                <a href="food.html">
+                <a href="food.php">
                     <div class="food"> FOOD </div>
                 </a>
                 
-                <a href="free_activities.html">
+                <a href="free_activities.php">
                     <div class="free_activities"> FREE ACTIVITIES </div>
                 </a>
                 
-                <a href="nightlife.html">
+                <a href="nightlife.php">
                     <div class="nightlife"> NIGHTLIFE </div>
                 </a>
                 
-                <a href="calendar.html">
+                <a href="calendar.php">
                     <div class="calendar"> CALENDAR </div>
                 </a>
                 

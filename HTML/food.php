@@ -91,7 +91,7 @@ $dag3 = $menu3 [$today];
                     <div class="nightlife"> NIGHTLIFE </div>
                 </a>
                 
-                <a href="calendar.html">
+                <a href="calendar.php">
                     <div class="calendar"> CALENDAR </div>
                 </a>
                 
