@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="stylesheet" href="../CSS/main.css" type="text/css">
+        <link rel="favicon" href="../Prototype/favicon.ico">
 
         <title>Vulkan: Nightlife</title>
 
@@ -48,6 +49,7 @@
             <div id="phover2">
             <h1><?php require 'hover.php';?></h1>
         </div>
+            <img id="harrow2" src="../bilder/1280px-Arrow_east.svg.png">
             
             <div id="right_container">
                 <img id="u1" src="../bilder/thumb1.jpg">

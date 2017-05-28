@@ -9,8 +9,25 @@
         <meta name="author" content="">
         <link rel="stylesheet" href="../CSS/main.css" type="text/css">
         <link rel="stylesheet" href="../styles.css">
+        <link rel="favicon" href="../Prototype/favicon.ico">
 
         <title>Vulkan: Free Activities</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+        <title>Vulkan FREE $TUFF</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
+        <script src="../snazzy-info-window.min.js"></script>
+        <script id="marker-content-template" type="text/x-handlebars-template">
+            <div class="custom-img" style="background-image: url({{{bgImg}}})"></div>
+            <section class="custom-content">
+                <h1 class="custom-header">
+                    {{title}}
+                    <small>{{subtitle}}</small>
+                </h1>
+                <div class="custom-body">{{{body}}}</div>
+            </section>
+        </script>
 
     </head>
     
@@ -73,8 +90,7 @@
             </div>
             
         <script src="../slidingpicture.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRAW4AZLuIFRGnYzbJdGgRcfA4bHXPD5U&callback=initMap"
-                    async defer></script>
-                            <script src="../script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRAW4AZLuIFRGnYzbJdGgRcfA4bHXPD5U&callback=initMap"async defer></script>
+        <script src="../script.js"></script>
     </body>
 </html>

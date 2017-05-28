@@ -37,15 +37,15 @@ $si-font-size:              1.4rem;
 
 // Import Info Window SCSS.
 
-@import '../../dist/snazzy-info-window.scss';
+@import '..../../dist/snazzy-info-window.scss';
 
-
+@import '../snazzy-info-window.min.js';
 
 //////////////////////////////
 // Page Scaffolding
 //////////////////////////////
 
-// Make the map fill the page.
+// Make the map fill the div.
 
 #right_container
 {

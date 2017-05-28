@@ -66,6 +66,7 @@ $dag3 = $menu3 [$today];
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="stylesheet" href="../CSS/main.css" type="text/css">
+        <link rel="favicon" href="../Prototype/favicon.ico">
 
         <title>Vulkan FOOD</title>
 
@@ -108,6 +109,8 @@ $dag3 = $menu3 [$today];
             <h1><?php require 'hover.php';?></h1>
         </div>
             
+            <img id="harrow" src="../bilder/1280px-Arrow_east.svg.png">
+            
             <div id="right_container">
                 <img id="t1" src="../bilder/thumb1.jpg">
                 <img id="t2" src="../bilder/thumb2.jpg">
@@ -126,12 +129,7 @@ $dag3 = $menu3 [$today];
                      
                      <p id="Aboutrest"><b>Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
                     They serve what they like to call american food with a southern american touch to it: Chicken and spear ribs with traditional sides like Mac'n'cheese, baked beanes and corn stew. We use only the best ingredients and serve large and generous portions!<br>Our restaurant is inspired by american chicken shacks and we strive to make the good old american atmosphere here at Vulkan.</b></p>
-                   <!-- <div id="ing1">
-                        <h2>Ingredienser: gluten, melk, svin</h2>
-                    </div>
-                    <div id="kr1">
-                        <h2>Kr: 129</h2>
-                    </div> -->
+                   
                 </div>
                 <div id="rest2">
                     
@@ -170,13 +168,7 @@ $dag3 = $menu3 [$today];
                     <p id="Aboutrest"><b> Lucky Bird's filosofy is quite simple: delicious food, good beers and nice tasting cocktails to a pleasent pricepoint!<br>
                     They serve what they like to call american food with a southern american touch to it: Chicken and spear ribs with traditional sides like Mac'n'cheese, baked beanes and corn stew. We use only the best ingredients and serve large and generous portions!<br>Our restaurant is inspired by american chicken shacks and we strive to make the good old american atmosphere here at Vulkan.</b></p>
                     
-                   <!-- <div id="ing3">
-                        <h2>kylling, potet</h2>
-                    </div>
-                    
-                    <div id="kr3">
-                        <h2>Kr:109</h2>
-                    </div> -->
+               
                          
                 
               </div>
