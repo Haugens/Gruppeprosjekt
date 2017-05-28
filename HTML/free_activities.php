@@ -26,7 +26,7 @@
                     <div class="food"> FOOD </div>
                 </a>
                 
-                <a href="free_activities.html">
+                <a href="free_activities.php">
                     <div class="free_activities"> FREE ACTIVITIES </div>
                 </a>
                 
@@ -34,7 +34,7 @@
                     <div class="nightlife"> NIGHTLIFE </div>
                 </a>
                 
-                <a href="calendar.html">
+                <a href="calendar.php">
                     <div class="calendar"> CALENDAR </div>
                 </a>
                 
@@ -57,7 +57,7 @@
             </div>
             
         <div id="hoverbox">
-            <p id="hoverboxtext">Got any free activities we can implement?<br><br> SEND A MAIL TO haular16@student.westerdals.no</p>
+            <?php require 'Mail.php' ?>
         </div>
 
         </div>

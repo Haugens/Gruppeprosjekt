@@ -396,15 +396,11 @@ html, body
     border-color: rgb(242, 182, 50);
 }
 
-#picturebox2,  #upicturebox2, #upicturebox3
+#picturebox2, #picturebox3,  #upicturebox2, #upicturebox3
 {
     height: 80%;
 }
 
-#picturebox3
-{
-    height: 80%;
-}
 
 #dish1, #dish2, #dish3, #id1, #id2, #id3
 {
@@ -835,3 +831,36 @@ html, body
     opacity: 0;
 }
 
+#hoverbox
+{
+    position: fixed;
+    bottom: 0;
+    width: 350px;
+    height: 20px;
+    background-color: rgb(37,40,57);
+    border-style: solid;
+    border-color: rgb(230,233,240);
+    border-width: 2px;
+    z-index: 998;
+    left: 1%;
+    opacity: 0.6;
+}
+
+#hoverboxtext
+{
+    color: rgb(230,233,240);
+    font-size: 1em;
+    z-index: 999;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#hoverbox:hover
+{
+    transition: all 0.8s;
+    bottom: 0;
+    height: 90px;
+    opacity: 1;
+}
