@@ -1,6 +1,6 @@
 var events = [];
 $months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-fetch('testdatabase.php')
+fetch('activity.php')
   .then(function(response) {
     return response.json()
   }).then(function(json) {

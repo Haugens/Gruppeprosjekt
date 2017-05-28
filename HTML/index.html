@@ -6,9 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="stylesheet" href="../CSS/main.css" type="text/css">
         <link rel="favicon" href="../Prototype/favicon.ico">
-
+        <link rel="stylesheet" href="../CSS/main.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="../JS/fetch.js"></script>
+        <script src="../JS/frontpagecalendar.js"></script>
         <title>Vulkan: Front page</title>
 
     </head>
@@ -48,7 +50,9 @@
                 </figure>
             </div>
             
-            <div id="right_container">          
+            <div id="right_container_calendar">
+                <div id="upcoming_events"><h2>Upcoming events</h2></div>
+
             </div>
             
             <div id="left_container">
@@ -71,7 +75,7 @@
                 </a>
                 
                 
-                <p id="frontpagetext"><b>EXPLORE: WESTERDALS is a page for meant for helping people explore and take more advantage over the many, many possibilities around the VULKAN-area. Vulkan is one of Oslo's most cultural and most exciting places to be, and we feel like there is no real help offered to new people wanting to know more about this cool place! But now you got us!<br> On this page, you can find: <ul id="frontpagetextlist">
+                <p id="frontpagetext"><b>EXPLORE: WESTERDALS is a page meant for helping people explore and take more advantage over the many, many possibilities around the VULKAN-area. Vulkan is one of Oslo's most cultural and most exciting places to be, and we feel like there is no real help offered to new people wanting to know more about this cool place! But now you got us!<br> On this page, you can find: <ul id="frontpagetextlist">
                 <li>Different kinds of food places and what they offer</li>
                 <li> Huge map with pin pointed destinations for free and easy fun and excersise</li>
                 <li>An own section for clubs and bars and what you can expect for a night out on Vulkan</li>
