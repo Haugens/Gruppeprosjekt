@@ -12,8 +12,13 @@ html, body
     left: 44.8%;
     top: 100%;
     z-index: 200;
+<<<<<<< HEAD
+    -ms-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+=======
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
+>>>>>>> origin/master
     z-index: 999;
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
@@ -298,10 +303,14 @@ html, body
 }
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
 
 /*om-text på underside*/
-#foodabouttext, #freeabouttext, #nightlifeabouttext
->>>>>>> Stashed changes
+#freeabouttext, #nightlifeabouttext
+
 {
     font-size: 1em;
     margin-left: 19%;
@@ -352,6 +361,7 @@ html, body
     height: 5%;
     width: 5%;
     position: absolute;
+    left: 2.8%;
 }
 
 #t2, #u2
@@ -360,6 +370,7 @@ html, body
     height: 5%;
     width: 5%;
     position: absolute;
+    left: 2.8%;
 }
 
 #t3, #u3
@@ -368,6 +379,7 @@ html, body
     height: 5%;
     width: 5%;
     position: absolute;
+    left: 2.8%;
 }
 
 #rest1, #rest2, #rest3, #ute1, #ute2, #ute3

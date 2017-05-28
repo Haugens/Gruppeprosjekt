@@ -49,12 +49,12 @@
             <div id="phover2">
             <h1><?php require 'hover.php';?></h1>
         </div>
-            <img id="harrow2" src="../bilder/1280px-Arrow_east.svg.png">
+            <img id="harrow2" src="../Prototype/Arrow.png">
             
             <div id="right_container">
-                <img id="u1" src="../bilder/thumb1.jpg">
-                <img id="u2" src="../bilder/thumb2.jpg">
-                <img id="u3" src="../bilder/thumb3.jpg">
+                <img id="u1" src="../Prototype/BLAA.png">
+                <img id="u2" src="../Prototype/VNA.png">
+                <img id="u3" src="../Prototype/VNB.png">
                 <div id="ute1">
                     <div id="utop1">
                         <h1>Club: Blå</h1>
@@ -93,7 +93,7 @@
                 <div id="ute3">
                     
                     <div id="utop3">
-                        <h1>Club: </h1>
+                        <h1>Club: BAR vulkan</h1>
                     </div>
                     
                     <div id="upicturebox3">
